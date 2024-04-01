@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+.hover-fade {
+    transition: opacity 0.3s ease;
+}
+
+.hover-fade:hover {
+    opacity: 0.8;
+}
+
+.hover-bg-green:hover {
+    background-color: #4CAF50;
+}
+
+
+
